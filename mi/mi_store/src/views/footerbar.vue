@@ -3,7 +3,7 @@
     <ul>
       <li>
         <a href>
-         <div></div>
+          <div></div>
         </a>
       </li>
       <li>
@@ -45,14 +45,17 @@ footer {
   z-index: 999;
   ul {
     display: flex;
-    margin: 15px 0;
+    // margin: 15px 0;
     justify-content: space-around;
     text-align: center;
     li {
+    //   height: 20px;
+    //   width: 20px;
       flex: 1;
-    //   &:nth-child(1){
-    //       background-image: url(@/assets/imgs/houselogo.png) no-repeat;
-    //   }
+      &:nth-child(1) {
+        background: url(.././assets/imgs/houselogo.png) no-repeat;
+        background-size: cover;
+      }
     }
   }
 }
